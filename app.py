@@ -1,9 +1,9 @@
+import os
 from flask import Flask, render_template, request
 import json
 
 app = Flask(__name__)
 
-# Load questions from JSON
 with open("questions.json") as f:
     questions = json.load(f)
 
@@ -19,4 +19,5 @@ def quiz():
     return render_template("quiz.html", questions=questions)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
