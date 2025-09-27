@@ -6,10 +6,11 @@
 <body>
     <h1>Quiz Game</h1>
     <form method="POST">
-        {% for i, q in enumerate(questions, 1) %}
-            <p>{{ i }}. {{ q.question }}</p>
-            {% for opt_index, opt in enumerate(q.options, 1) %}
-                <input type="radio" name="q{{ i }}" value="{{ opt_index }}"> {{ opt }}<br>
+        {% for q in questions %}
+            <p>{{ loop.index }}. {{ q.question }}</p>
+            {% for opt in q.options %}
+                <input type="radio" name="q{{ loop.index }}" value="{{ loop.index0 + loop.index }}">
+                {{ opt }}<br>
             {% endfor %}
         {% endfor %}
         <button type="submit">Submit</button>
