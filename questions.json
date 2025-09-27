@@ -1,0 +1,63 @@
+
+[
+  {
+    "question": "What is TinkerHub primarily focused on?",
+    "options": ["Sports and Games", "Technology Learning & Community Building", "Music and Arts", "Food and Culture"],
+    "answer": 2
+  },
+  {
+    "question": "Where did TinkerHub originate?",
+    "options": ["Kerala", "Karnataka", "Tamil Nadu", "Maharashtra"],
+    "answer": 1
+  },
+  {
+    "question": "What is the flagship hackathon event of TinkerHub MEC?",
+    "options": ["HackathonX", "TinkHack", "InnoFest", "CodeSprint"],
+    "answer": 2
+  },
+  {
+    "question": "Which of these is NOT a TinkerHub initiative?",
+    "options": ["TinkerHub Learn", "TinkerSpace", "CodeCombat", "TinkerHub Talks"],
+    "answer": 3
+  },
+  {
+    "question": "TinkerHub is mainly run by?",
+    "options": ["Government of India", "Students and Volunteers", "Corporate Sponsors", "Teachers and Professors"],
+    "answer": 2
+  },
+  {
+    "question": "What is the mission of TinkerHub?",
+    "options": [
+      "To promote cinema culture",
+      "To build a tech learning community and improve skills",
+      "To host sports competitions",
+      "To provide food for students"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which platform is commonly used by TinkerHub for its community interactions?",
+    "options": ["Slack", "Discord", "WhatsApp", "Telegram"],
+    "answer": 2
+  },
+  {
+    "question": "What does TinkerHub encourage students to focus on?",
+    "options": ["Theory only", "Practical Skills and Projects", "Only Exams", "Sports and Games"],
+    "answer": 2
+  },
+  {
+    "question": "TinkerHub conducts learning sessions called?",
+    "options": ["SkillShops", "Workshops", "Bootcamps", "All of the above"],
+    "answer": 4
+  },
+  {
+    "question": "TinkerHub’s tagline is?",
+    "options": [
+      "Learn. Build. Share.",
+      "Think. Tinker. Transform.",
+      "Code. Create. Conquer.",
+      "Learn. Teach. Repeat."
+    ],
+    "answer": 2
+  }
+]
