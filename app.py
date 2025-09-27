@@ -16,7 +16,7 @@ def quiz():
             if selected and int(selected) == q["answer"]:
                 score += 1
         return render_template("result.html", score=score, total=len(questions))
-    return render_template("quiz.html", questions=questions, enumerate=enumerate)
+    return render_template("quiz.html", questions=questions)
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
