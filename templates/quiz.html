@@ -8,8 +8,8 @@
   <form method="POST">
     {% for q in questions %}
       <p>{{ loop.index }}. {{ q.question }}</p>
-      {% for opt_index, opt in enumerate(q.options, start=1) %}
-        <input type="radio" name="q{{ loop.index }}" value="{{ opt_index }}"> {{ opt }}<br>
+      {% for opt in q.options %}
+        <input type="radio" name="q{{ loop.index }}" value="{{ loop.index0 + 1 }}"> {{ opt }}<br>
       {% endfor %}
     {% endfor %}
     <button type="submit">Submit</button>
